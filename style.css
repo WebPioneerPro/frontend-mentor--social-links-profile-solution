@@ -1,0 +1,114 @@
+/* Importing the Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Defining root level CSS variables for easy color management */
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+/* Resetting default margin, padding, and box-sizing for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Applying styles to the entire HTML document*/
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+/* Styling the main container*/
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--off-black);
+}
+
+/* Styling for the card container */
+.card{
+    background: var(--dark-grey);
+    display: inline-flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 19px;
+    color: var(--white);
+}
+
+/* Styling for the user details section within the card */
+.user_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the profile picture */
+#profile_pic{
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Styling for user details headings */
+.user_details h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.user_details h2{
+    font-size: 0.9rem;
+    color: var(--green);
+    font-weight: 600;
+}
+
+/* Styling for general paragraphs */
+p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 10px;
+}
+
+/* Styling for the socials container */
+.socials{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for individual social links */
+.social{
+    background: var(--grey);
+    width: 100%;
+    padding: 13px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* Hover styling for social links */
+.social:hover{
+    background: var(--green);
+    color: var(--dark-grey);
+    cursor: pointer;
+}
