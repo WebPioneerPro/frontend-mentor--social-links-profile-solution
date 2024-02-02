@@ -33,8 +33,8 @@ Mobile Mode
 
 ### Links
 
-- [!Solution](https://github.com/WebPioneerPro/frontend-mentor---social-links-profile-solution/tree/main)
-- [!Live Site](https://webpioneerpro.github.io/frontend-mentor--social-links-profile-solution/)
+- [Solution](https://github.com/WebPioneerPro/frontend-mentor---social-links-profile-solution/tree/main)
+- [Live Site](https://webpioneerpro.github.io/frontend-mentor--social-links-profile-solution/)
 
 ## My process
 
